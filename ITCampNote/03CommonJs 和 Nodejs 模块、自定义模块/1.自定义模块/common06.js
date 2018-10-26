@@ -1,0 +1,1 @@
+let nav = require('nav');// nav 在根目录不存在，去 node_modules，找到了nav文件夹，nav 文件夹下面有 package.json// 找 package.json 入口文件 "main":"nav.js"console.log(nav.str); // this is bar 下面的 bar.js 在 node_modules// npm 安装的模块就是这样引入的

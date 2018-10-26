@@ -1,0 +1,1 @@
+let http = require('http');let config = require('./config');let app = http.createServer((req, res) => {    res.writeHead(200, {"Content-Type":"text/html;charset=utf-8"});    res.write("中国深圳·你好 NodeJS");    console.log('str==',config.str);    res.end();});// 监听端口app.listen(8001, '127.0.0.1', () =>{    console.log('Node服务启动成功 http://localhost:8001');});

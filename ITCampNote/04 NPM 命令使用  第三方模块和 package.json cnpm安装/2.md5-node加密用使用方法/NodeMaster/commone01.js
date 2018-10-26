@@ -1,0 +1,1 @@
+let sd = require('silly-datetime');     // 日期格式化var d = sd.format(new Date(), 'YYYY-MM-DD HH:mm:ss');console.log("中国深圳·你好 NodeJS 现在时间为："+d);   // 现在时间为：2018-10-21 22:52:11

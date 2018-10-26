@@ -1,0 +1,1 @@
+let tools = {    add: function(x, y){        return x + y;    },    sayHello: function(){        return '你好 Node'    }}// 暴露单// exports.tools = tools;// 暴露整个模块module.exports = tools;
